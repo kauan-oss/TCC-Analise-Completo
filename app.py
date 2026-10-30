@@ -399,9 +399,7 @@ def criar_interface() -> None:
         conteudo_dashboard()
         ui.separator()
         ui.label(
-            "Nota metodológica: os resultados descrevem somente a amostra e as percepções "
-            "declaradas. As escalas são ordinais; médias são complementares. Diferenças entre "
-            "grupos não demonstram causalidade nem podem ser generalizadas automaticamente."
+            "A análise foi conduzida de acordo com a quantidade de respostas, uma amostra maior pode alterar alguns resultados"
         ).classes("text-sm text-slate-600 pb-6")
 
 
